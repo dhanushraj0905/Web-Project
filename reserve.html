@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bgimg"></div>
+    <form method="POST" action="reservebackend.php">
+    <table>
+    <tr>
+        <th>Name:</th>
+        <th><input type="text" name="name">
+            <th></th>
+    </th>
+    <tr>
+        <th>Phone:</th>
+        <th><input type="phone" name="uphone"></th>
+        <th></th>
+    </tr>
+    
+    <tr>
+        <th>Reserve:</th>
+        <th><input type="checkbox" name="hb" class="cbox">Haircut</th>
+        <th><input type="checkbox" name="hb" class="cbox2">Beard</th>
+         
+    </tr>
+       
+    <tr>
+        <th></th>
+        <th><input type="checkbox" name="hb" class="cbox">Straightening</th>
+        <th><input type="checkbox" name="hb" class="cbox2">Massage</th>
+         
+    </tr>
+    <tr><td>TIME:</td><td><select name="rtime">
+        <option value="">-----SELECT-----</option>
+        <option value="06:00 AM--06:30 AM">06:00 AM--06:30 AM</option>
+        <option value="06:30 AM--07:00 AM">06:30 AM--07:00 AM</option>
+        <option value="07:00 AM--07:30 AM">07:00 AM--07:30 AM</option>
+        <option value="07:30 AM--08:00 AM">07:30 AM--08:00 AM</option>
+        <option value="08:00 AM--08:30 AM">08:00 AM--08:30 AM</option>
+        <option value="08:30 AM--09:00 AM">08:30 AM--09:00 AM</option>
+        <option value="">-----BREAK-----</option>
+        <option value="10:00 AM--10:30 AM">10:00 AM--10:30 AM</option>
+        <option value="10:30 AM--11:00 AM">10:30 AM--11:00 AM</option>
+        <option value="11:00 AM--11:30 AM">11:00 AM--11:30 AM</option>
+        <option value="11:30 AM--12:00 PM">11:30 AM--12:00 PM</option>
+        <option value="12:00 PM--12:30 PM">12:00 PM--12:30 PM</option>
+        <option value="12:30 PM--01:00 PM">12:30 PM--01:00 PM</option>
+        <option value="">-----BREAK-----</option>
+        <option value="02:00 PM--02:30 PM">02:00 PM--02:30 PM</option>
+        <option value="02:30 PM--03:00 PM">02:30 PM--03:00 PM</option>
+        <option value="03:00 PM--03:30 PM">03:00 PM--03:30 PM</option>
+        <option value="03:30 PM--04:00 PM">03:30 PM--04:00 PM</option>
+        <option value="04:00 PM--04:30 PM">04:00 PM--04:30 PM</option>
+        <option value="04:30 PM--05:00 PM">04:30 PM--05:00 PM</option>
+        <option value="">-----BREAK-----</option>
+        <option value="06:00 PM--06:30 PM">06:00 PM--06:30 PM</option>
+        <option value="06:30 PM--07:00 PM">06:30 PM--07:00 PM</option>
+        <option value="07:00 PM--07:30 PM">07:00 PM--07:30 PM</option>
+        <option value="07:30 PM--08:00 PM">07:30 PM--08:00 PM</option>
+        <option value="08:00 PM--08:30 PM">08:00 PM--08:30 PM</option>
+        <option value="08:30 PM--09:00 PM">08:30 PM--09:00 PM</option>
+    </tr>
+    <tr>
+        <th></th>
+        
+    </tr>
+    <tr>
+        <th></th>
+        <th><input type="submit" name="reservesubmit" value="Book"></th>
+    </tr>
+
+    </table>
+</form>
+  
+    
+</body>
+    
+</html>
